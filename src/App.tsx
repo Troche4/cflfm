@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Home';
+import Bio from './Bio';
 
 export default function App() {
   return <div className="app">
@@ -13,7 +14,7 @@ export default function App() {
       <div className="container">
         <Switch>
           <Route path="/bio">
-            <div>Bio</div>
+            <Bio/>
           </Route>
           <Route path="/">
             <Home/>

@@ -2,7 +2,7 @@ import React from "react";
 import ActionButton from "./ActionButton";
 
 export default function Home() {
-    return <div>
+    return <React.Fragment>
         <div className="homeHeaderText">
             <div>Coaching for Managing Partners, Practice Leaders, Law Firm COO's, CAOs and their Successors</div>
             <div>Confidential and Virtual Help from a Trusted Experienced Coach</div>
@@ -21,5 +21,5 @@ export default function Home() {
                 </ul>
             </div>
         </div>
-    </div>
+    </React.Fragment>
 }
