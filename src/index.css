@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.appRoot {
+.app {
   height: calc(100vh);
   display: flex;
   flex-direction: column;
@@ -16,10 +16,15 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #0047ba;
   color: white;
   padding: 16px
+}
+
+.link {
+  color: white;
+  text-decoration: none;
 }
 
 .footer {
