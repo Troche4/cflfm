@@ -33,7 +33,7 @@ export default function Bio() {
                 <li>Fellow of the College of Law Practice Management</li>
                 <li>Appointed to the Michigan State Board of Ethics by Governor Rick Snyder</li>
                 <li>Appointed by the State Bar President as a Member of the State Bar of Michigan Professional Ethics Committee</li>
-                <li>ALFA International - former Vice Chairman - Board of Directors</li>
+                <li>ALFA International - The Global Legal Network - former Vice Chairman - Board of Directors</li>
                 <li>International Association of Defense Counsel - Faculty Member - Annual Trial Academy</li>
                 <li>Association of Corporate Counsel - Former Member of the East Michigan Board</li>
                 <li>State Bar of Michigan - Former Chairman - Standing Committee on Establishing Law Practices</li>

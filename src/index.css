@@ -11,12 +11,15 @@ body {
   min-height: calc(100vh);
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   background-color: #F4F4F5;
 }
 
 .container {
   padding: 16px 15% 0 15%;
-  min-height: calc(100vh - 116px) /* 116 is derived from the header and footer height + top margin on the container*/
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .homeHeaderText {
@@ -50,10 +53,6 @@ body {
 
 li {
   padding: 6px 8px;
-}
-
-.bioContainer {
-  overflow-y: scrolll;
 }
 
 .navbar {
