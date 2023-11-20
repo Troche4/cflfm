@@ -9,6 +9,7 @@ export default function Home() {
         </div>
 
         <div className="homeMain">
+            <div/>
             <ActionButton/>
             <div>
                 <div className="listHeader">Our Commitment</div>
@@ -20,6 +21,7 @@ export default function Home() {
                     <li>Not Just Talk - a Written Action Plan with Goals and Metrics</li>
                 </ul>
             </div>
+            <div/>
         </div>
     </React.Fragment>
 }

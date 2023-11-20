@@ -2,12 +2,15 @@ import React from "react";
 
 export default function Bio() {
     return <div className="bioContainer">
-        <div>
+        <div className="headshotWithText">
+            <div className="headshot"><img src="./joe_headshot.png" className="headhshot"/></div>
+            <div>
             Joe has over 40 years of legal and business experience. In the law firm setting, he has been a Practice Group
             Leader, Member of the Board of Directors, and Managing Partner. He was General Counsel, and then
             President of an international automotive statistical and marketing information company. His consulting focus
             is mergers and lateral hiring, strategic planning management and execution, and coaching for law firm
             managers.
+            </div>
         </div>
         <br/>
         <br/>
