@@ -117,12 +117,26 @@ li {
 
 
 @media only screen and (max-width: 600px) {
+  .homeHeaderText {
+    text-align: center;
+  }
+  .homeMain {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 16px;
+  }
+
   .hero {
-    display: none;
+    width: 100%;
   }
 
   .headshotWithText {
     display: flex;
     flex-direction: column;
+  }
+
+  .footer {
+    text-align: center;
   }
 }
