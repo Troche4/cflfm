@@ -9,19 +9,20 @@ export default function Home() {
         </div>
 
         <div className="homeMain">
-            <div/>
-            <ActionButton/>
-            <div>
-                <div className="listHeader">Our Commitment</div>
-                <ul>
-                    <li>Confidentiality Always</li>
-                    <li>Efficient Use of Your Time</li>
-                    <li>Flexible Scheduling</li>
-                    <li>One Hour Weekly Meeting - with an Agenda and Follow-Up</li>
-                    <li>Not Just Talk - a Written Action Plan with Goals and Metrics</li>
-                </ul>
+            <img src="./consulting_hero.jpg" className="hero"/>
+            <div className="sidebar">
+                <div>
+                    <div className="listHeader">Our Commitment</div>
+                    <ul>
+                        <li>Confidentiality Always</li>
+                        <li>Efficient Use of Your Time</li>
+                        <li>Flexible Scheduling</li>
+                        <li>One Hour Weekly Meeting - with an Agenda and Follow-Up</li>
+                        <li>Not Just Talk - a Written Action Plan with Goals and Metrics</li>
+                    </ul>
+                </div>
+                <ActionButton />
             </div>
-            <div/>
         </div>
     </React.Fragment>
 }

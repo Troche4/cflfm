@@ -3,8 +3,9 @@ import React from "react";
 export default function Bio() {
     return <div className="bioContainer">
         <div className="headshotWithText">
-            <div className="headshot"><img src="./joe_headshot.png" className="headhshot"/></div>
+            <div className="headshot"><img src="./joe_headshot.png"/></div>
             <div>
+            <h3>Joseph Walker</h3>
             Joe has over 40 years of legal and business experience. In the law firm setting, he has been a Practice Group
             Leader, Member of the Board of Directors, and Managing Partner. He was General Counsel, and then
             President of an international automotive statistical and marketing information company. His consulting focus
@@ -12,7 +13,6 @@ export default function Bio() {
             managers.
             </div>
         </div>
-        <br/>
         <br/>
         <div>
             <div>Some examples of Joe's law firm management experience include:</div>
