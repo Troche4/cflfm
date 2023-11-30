@@ -1,7 +1,7 @@
 {
   "name": "cflfm",
   "version": "0.1.0",
-  "homepage": "www.cflfm.net",
+  "homepage": "http://cflfm.net",
   "private": true,
   "dependencies": {
     "@types/node": "16.18.60",
