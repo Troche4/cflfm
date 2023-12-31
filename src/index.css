@@ -43,8 +43,14 @@ body {
   padding: 16px 0;
 }
 
-.hero {
-  max-width: 768;
+@media only screen and (max-width : 1700px) and (min-width : 600px) {
+  .hero {
+    display: none;
+  }
+
+  .homeMain {
+    justify-content: space-around;
+  }
 }
 
 .actionButton {
