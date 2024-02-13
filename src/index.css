@@ -28,6 +28,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 32px;
+  max-width: 33%;
 }
 
 .homeHeaderText {
@@ -40,16 +41,17 @@ body {
 
 .homeMain {
   display: flex;
+  justify-content: center;
   padding: 16px 0;
 }
 
-@media only screen and (max-width : 1700px) and (min-width : 600px) {
+@media only screen and (max-width : 1140px) and (min-width : 747px) {
   .hero {
     display: none;
   }
 
-  .homeMain {
-    justify-content: space-around;
+  .sidebar {
+    max-width: 100%;
   }
 }
 
@@ -121,15 +123,25 @@ li {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 747px) {
   .homeHeaderText {
     text-align: center;
   }
+
   .homeMain {
     display: flex;
     flex-direction: column;
     gap: 32px;
     margin: 16px;
+  }
+
+  .sidebar {
+    max-width: 100%;
+  }
+
+  .callToAction {
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero {
@@ -160,4 +172,12 @@ li {
 
 .gutter {
   width: 25%
+}
+
+.callToAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 16px
 }

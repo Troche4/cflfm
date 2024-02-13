@@ -31,7 +31,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <img src="./consulting_hero.jpg" className="hero"/>
+            <div className="sidebar">
+                <img src="./hero.jpg" className="hero"/>
+            </div>
 
             <div className="sidebar">
                 <div>
@@ -44,10 +46,13 @@ export default function Home() {
                         <li>Not Just Talk - a Written Action Plan with Goals and Metrics</li>
                     </ul>
                 </div>
-                <ActionButton title="Meet The Coach" link="/bio"/>
-                <ActionButton title="What Would You Like To Improve?" link="/competencies"/>
-                <ActionButton title="Group Coaching Presentations" link="/presentations"/>
             </div>
+        </div>
+
+        <div className="callToAction">
+            <ActionButton title="Meet The Coach" link="/bio"/>
+            <ActionButton title="What Would You Like To Improve?" link="/competencies"/>
+            <ActionButton title="Group Coaching Presentations" link="/presentations"/>
         </div>
     </React.Fragment>
 }
