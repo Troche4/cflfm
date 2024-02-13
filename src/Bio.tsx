@@ -30,6 +30,7 @@ export default function Bio() {
             </ul>
             <div>He has a B.S. in Political Science from Xavier University and a J.D. from the University of Detroit Mercy School of Law.</div>
         </div>
+        <br/>
         <div>
             <div>Some of Joe's past memberships are:</div>
             <ul>

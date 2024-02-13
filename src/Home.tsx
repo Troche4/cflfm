@@ -44,7 +44,9 @@ export default function Home() {
                         <li>Not Just Talk - a Written Action Plan with Goals and Metrics</li>
                     </ul>
                 </div>
-                <ActionButton />
+                <ActionButton title="Meet The Coach" link="/bio"/>
+                <ActionButton title="What Would You Like To Improve?" link="/competencies"/>
+                <ActionButton title="Group Coaching Presentations" link="/presentations"/>
             </div>
         </div>
     </React.Fragment>
