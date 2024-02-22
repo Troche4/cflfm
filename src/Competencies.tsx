@@ -38,13 +38,32 @@ export default function Competencies() {
                     <li>Relationship Building</li>
                     <li>Adaptability</li>
                     <li>Leading Change</li>
-                    <li>Customer Focus</li>
+                    <li>Client Focus</li>
                     <li>Resourcefulness</li>
                     <li>Time Management</li>
                     <li>Empowerment</li>
                     <li>Self-Awareness</li>
                     <li>Judgement</li>
                     <li>Quick Study</li>
+                </ul>
+            </div>
+
+            <div className="column">
+                <ul>
+                    <li>Career Management (self and others)</li>
+                    <li>Straightfowardness/Composure</li>
+                    <li>Holding Effective Meetings</li>
+                    <li>Engaging in Healthy Conflict</li>
+                    <li>Succession Planning</li>
+                    <li>Perfomance Management</li>
+                    <li>Achieving Work / Life Balance for Yourself and Others</li>
+                    <li>Presentation Skills</li>
+                    <li>Ethical Leadership and Mindset</li>
+                    <li>Technology Awareness</li>
+                    <li>Financial Literacy and Analysis</li>
+                    <li>Motivation, Drive and Resilience</li>
+                    <li>Confronting Problem Employees</li>
+                    <li>Networking</li>
                 </ul>
             </div>
 
