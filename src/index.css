@@ -144,10 +144,6 @@ li {
     align-items: center;
   }
 
-  .hero {
-    width: 100%;
-  }
-
   .headshotWithText {
     display: flex;
     flex-direction: column;

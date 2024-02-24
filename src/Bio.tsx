@@ -22,7 +22,7 @@ export default function Bio() {
                 <li>Authoring a succession plan and transfer of ownership from the founding members of the firm to the next generation.</li>
                 <li>Creating multiple partner and associate compensation structures and performance management processes.</li>
                 <li>Organizing and re-organizing practice groups to take advantage of market opportunities, develop new leaders and grow revenue.</li>
-                <li>Developing an internationally recognized quality improvement program for law firms, which was chronicled in the book <i>TQM in Action: One Firm's Journey toward Quality and Excellence</i>, Published by the American Bar Association.</li>
+                <li>Developing an internationally recognized quality improvement program for law firms, which was chronicled in the book <i>TQM in Action: One Firm's Journey toward Quality and Excellence</i>, published by the American Bar Association.</li>
                 <li>Co-developing the governance, growth and marketing plan for a law firm network first domestically and then internationally.</li>
                 <li>As General Counsel, Joe reorganized a law department, installed processes and outside counsel management programs for a portfolio company.</li>
                 <li>As President, he heavily participated in the company's strategic planning process, and then assumed responsibility for an international company, ultimately returning it to profitability within 18 months. He co-authored <i>Leading a Motown Turnaround ...How a 130 Year Old Company Went from Team to Tactics to Become New Again</i>, a book chronicling the turnaround effort.</li>

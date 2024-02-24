@@ -32,7 +32,7 @@ export default function Home() {
             </div>
 
             <div className="sidebar">
-                <img src="./hero.jpg" className="hero"/>
+                <img src="./home.jpg" width="400" className="homeImg"/>
             </div>
 
             <div className="sidebar">
